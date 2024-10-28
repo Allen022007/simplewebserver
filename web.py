@@ -1,39 +1,39 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler
 content='''
 <html>
-<title>top software Industries</title>
+    <title>top software Industries</title>
 <body>
-<table border ="6" cellspacing="10" cellpadding="8">
-<caption>TOP 5 Revenue Generating Software Companies </caption>
+    <table border ="6" cellspacing="10" cellpadding="8">
+    <caption> Configuration details of laptop </caption>
 <tr>
 <th>s.no</th>
-<th>companies</th>
-<th>Revenue</th>
+<th>Hardware</th>
+<th>Specs</th>
 </tr>
 <tr>
 <th>1</th>
-<th>Microsoft</th>
-<th>65 billon</th>
+<th>Display</th>
+<th>LCD display 12.9 inch</th>
 </tr>
 <tr>
 <th>2</th>
-<th>orcale</th>
-<th>29.6 billon</th>
+<th>Ram</th>
+<th>16 GB</th>
 </tr>
 <tr>
 <th>3</th>
-<th>IMB</th>
-<th>29.1 billion</th>
+<th>rom</th>
+<th>1 TB</th>
 </tr>
 <tr>
 <th>4</th>
-<th>SAP</th>
-<th>6.4billion</th>
+<th>Processor</th>
+<th>Intel i5 13th gen</th>
 </tr>
 <tr>
 <th>5</th>
-<th>symentec</th>
-<th>5.6billion</th>    
+<th>Graphics card</th>
+<th>Nvidia Rtx 1040</th>    
 </tr>
 </body>
 </html>
