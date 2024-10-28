@@ -1,7 +1,8 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler
+
 content='''
 <html>
-    <title>top software Industries</title>
+    <title>Laptop Details</title>
 <body>
     <table border ="6" cellspacing="10" cellpadding="8">
     <caption> Configuration details of laptop </caption>

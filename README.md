@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date: 26/10/24
+## Date: 22/10/24
 
 ## AIM:
 To develop a simple webserver to serve html pages and display the configuration details of laptop.
@@ -23,41 +23,42 @@ Testing the webserver.
 ## PROGRAM:
 '''
 from http.server import HTTPServer,BaseHTTPRequestHandler
+
 content='''
 <html>
-    <title>top software Industries</title>
+    <title>Laptop Details</title>
 <body>
     <table border ="6" cellspacing="10" cellpadding="8">
-    <caption>TOP 5 Revenue Generating Software Companies </caption>
+    <caption> Configuration details of laptop </caption>
 <tr>
 <th>s.no</th>
-<th>companies</th>
-<th>Revenue</th>
+<th>Hardware</th>
+<th>Specs</th>
 </tr>
 <tr>
 <th>1</th>
-<th>Microsoft</th>
-<th>65 billon</th>
+<th>Display</th>
+<th>LCD display 12.9 inch</th>
 </tr>
 <tr>
 <th>2</th>
-<th>orcale</th>
-<th>29.6 billon</th>
+<th>Ram</th>
+<th>16 GB</th>
 </tr>
 <tr>
 <th>3</th>
-<th>IMB</th>
-<th>29.1 billion</th>
+<th>rom</th>
+<th>1 TB</th>
 </tr>
 <tr>
 <th>4</th>
-<th>SAP</th>
-<th>6.4billion</th>
+<th>Processor</th>
+<th>Intel i5 13th gen</th>
 </tr>
 <tr>
 <th>5</th>
-<th>symentec</th>
-<th>5.6billion</th>    
+<th>Graphics card</th>
+<th>Nvidia Rtx 1040</th>    
 </tr>
 </body>
 </html>
@@ -78,7 +79,7 @@ httpd.serve_forever()
 '''
 
 ## OUTPUT:
-![alt text](<WEB DEV EXP1 output.png>)
-![alt text](<WEB DEV EXP1.png>)
+![alt text](<Screenshot 2024-10-28 105636.png>)
+![alt text](<Screenshot 2024-10-28 105756.png>)
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
